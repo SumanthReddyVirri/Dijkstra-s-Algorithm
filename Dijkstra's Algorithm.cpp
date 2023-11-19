@@ -75,3 +75,27 @@ int main() {
 
     return 0;
 }
+
+
+Output:
+Enter the number of vertices: 5
+Enter the adjacency matrix:
+0 1 0 0 3
+1 0 2 0 0
+0 2 0 1 0
+0 0 1 0 2
+3 0 0 2 0
+0 1 0 0 3
+
+1 0 2 0 0
+
+0 2 0 1 0
+
+0 0 1 0 2
+
+3 0 0 2 0
+Enter the source node: 0
+Enter the target node: 3
+The shortest path from 0 to 3 is: 0 1 3 
+The path cost is: -2147483648
+    
